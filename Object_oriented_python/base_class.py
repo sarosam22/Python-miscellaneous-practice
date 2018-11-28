@@ -19,6 +19,11 @@ class Student:
     def __str__(self):
         return f'This is a Student class having name, school and grades of students'
 
+    @classmethod
+    def hi(cls):
+        return 'This is a class method'
+
+
 
 class WorkingStudent(Student):
 
